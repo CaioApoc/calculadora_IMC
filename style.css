@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(154, 185, 243);
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    background-color: #4882ce;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.title{
+    font-size: 26px;
+    
+
+}
+.formContainer{
+    width: 300px;
+    height: 430px;
+    background-color: rgb(220, 224, 243);
+    padding: 20px;
+    float: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    margin: auto;
+    margin-top: 100px;
+}
+
+h2{
+    
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-align: justify;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box; /* para deixar o nome e email do mesmo tamanho */
+    padding: 10px; /*pra deixar o formulario mais gordinho onde a pessoa vai escrever*/
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px /*pra desgrudar uma da outra*/;
+    box-shadow: 2px 2px 5px black;
+}
+
+input[type="button"]{    /*configurar o botao calcular*/
+    color: white;
+    background-color: #4882ce;
+    font-weight: bold;
+    width: 100px;
+    text-align:center;
+    margin-top: 10px;
+    margin-left: 100px;
+    
+}
+input[type="button"]:hover{
+    background-color: white;
+    color: #4882ce;
+
+}
+
+#result{
+    width: 280px;
+    height: 190px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 12px; 
+    padding: 10px
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+  /*  
+    background-color: #4882ce;
+    padding: 20px;
+    margin: auto;
+    max-width: 1000px;
+    
+   */ 
+    
+}

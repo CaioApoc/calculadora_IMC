@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de IMC</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="https://img.icons8.com/color/144/000000/widgetsmith.png" type="image/png">
+    
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="tittle">CALCULADORA IMC</h1>
+        </header>
+        <section>
+            <div class="formContainer">
+                <h2>INSIRA SEUS DADOS:</h2>
+                <form>
+                    <input id="name" name="name" type="text" placeholder="Seu nome">
+                    <input id="peso" name="peso" type="number" placeholder="Seu peso">
+                    <input id="altura" name="altura" type="number" placeholder="Sua altura em (cm)">
+                    <input onclick="calcular()" id="botao" name="botao" type="button" value="Calcular">
+                    <div id="result">
+                        
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+
+    </div>
+    <footer><h3>DESENVOLVIDO POR: CAIO RIBAS</h3></footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
